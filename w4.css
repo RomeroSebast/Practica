@@ -1,0 +1,96 @@
+div.contenedor{
+	width:100%;
+	border: 1px solid rgb(211, 167, 23);
+	}
+
+header, footer{
+padding: 1 em;
+color: white;
+background-color: rgb(206, 98, 26);
+clear: left;
+text-align: center;
+}
+
+nav{
+float: left;
+max-width:160px;
+margin:0;
+padding: 1em;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav ul a {
+/*<!--color: orangered;-->*/
+text-decoration: none;
+}
+
+article {
+margin-left: 170px;
+border-left: 2px solid rgb(141, 64, 12);
+padding: 1 em;
+overflow: hidden;
+}
+
+img {
+        display: block;
+        margin: auto;
+        }
+
+/* MOVIMIENTO*/
+@keyframes moverTexto {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(100px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .texto-con-movimiento {
+            animation: moverTexto 3s ease infinite; /* Cambia el valor de "3s" para ajustar la velocidad de la animación */
+        }
+/*SE ACABA EL MOVIMIENTO*/
+
+/* MOVIMIENTO2*/
+@keyframes moverTexto1 {
+            0% {
+                transform: translateX(3px);
+            }
+            50% {
+                transform: translateX(300px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .texto-con-movimiento1 {
+            animation: moverTexto1 5s ease infinite; /* Cambia el valor de "3s" para ajustar la velocidad de la animación */
+        }
+/*fin del MOVIMIENTO2*/
+
+/* Estilo para los elementos de la lista */
+.menu li {
+    padding: 6px;
+    margin-bottom: 7px; /*es el espacio entre elementos para la lista*/
+    background-color:  rgb(206, 98, 26);
+    border-radius: 100px; /*es el redondel para el borde de cada elemento de la lista*/
+    /*color: #000080;*/
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);/*sonbra*/
+}
+.menu li:hover {
+    background-color: #F5DEB3;
+}
+.col-3 {width: 90%;} /*es para el largo que vamos a querer que se muestre*/
+
+ /* FONDO DE LA PAGINA HTML*/
+ body {
+    background-color: rgba(206, 98, 26, 0.781);
+} 

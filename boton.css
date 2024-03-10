@@ -1,0 +1,26 @@
+.boton-descarga {
+    padding: 1px;
+    background-color: #EB6D44;
+    color: #333;
+    text-decoration: none;
+    border-radius: none;
+  }
+  
+  .boton-descarga:hover {
+    background-color: #333;
+    color: #EB6D44;
+  }
+  
+  .boton-descarga-2 {
+    padding: 12px;
+    background-color: #c62828;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+  
+  .boton-descarga-2:hover {
+    background-color: #e53935;
+  }
